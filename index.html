@@ -1,21 +1,30 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
-
-<body>
-  <form action="action_page.php" method="post">
-    <div class="container">
-      <label for="txtUserName"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="txtUserName" required />
-      <label for="txtmatkhau"><b>Mật khẩu</b></label>
-      <input type="password" placeholder="Enter Password" name="txtmatkhau" required>
-    </div>
-  </form>
-</body>
-
+  <body>
+    <form action="action_page.php" method="post">
+      <div class="container">
+        <label for="txtUserName"><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter Username"
+          name="txtUserName"
+          required
+        />
+        <label for="txtpassword"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="txtpassword"
+          required
+        />
+        <button id="btnlogin" type="submit">Login</button>
+      </div>
+    </form>
+  </body>
 </html>
